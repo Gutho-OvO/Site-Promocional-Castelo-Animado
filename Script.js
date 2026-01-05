@@ -1,9 +1,7 @@
-// Fade in da página ao carregar
 document.addEventListener('DOMContentLoaded', () => {
-    // Adiciona classe para fade in suave
+    
     document.body.classList.add('fade-enter-active');
     
-    // Smooth scroll para navegação entre seções
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
